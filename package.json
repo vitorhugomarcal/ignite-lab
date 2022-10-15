@@ -6,16 +6,35 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "codegen": "graphql-codegen"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.0",
+    "@graphql-codegen/typescript": "^2.7.4",
+    "@graphql-codegen/typescript-operations": "^2.5.4",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.4",
+    "@vidstack/player": "^1.6.4",
+    "@vidstack/player-react": "^1.6.4",
+    "@vime/core": "^5.3.3",
+    "@vime/react": "^5.3.3",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.29.3",
+    "graphql": "^16.6.0",
+    "lit": "^2.4.0",
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^2.13.7",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
   }
